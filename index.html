@@ -58,6 +58,13 @@
     text-decoration: none; color: var(--light);
   }
   .logo span { color: var(--primary); }
+  .logo .verify-badge {
+    display: inline-flex; align-items: center; justify-content:center;
+    width: 20px; height: 20px;
+    background: #1d9bf0; color: #fff;
+    border-radius: 50%; font-size: 10px;
+    margin-left: 8px; flex-shrink: 0;
+  }
   nav { display: flex; align-items: center; gap: 24px; }
   nav a {
     color: var(--muted-light); text-decoration: none;
@@ -531,6 +538,7 @@
 <header id="header">
   <a href="#" class="logo brand-font">
     VAPE<span>VAULT</span>
+    <span class="verify-badge"><i class="fa-solid fa-check"></i></span>
   </a>
   <nav>
     <a href="#products">Products</a>
@@ -606,8 +614,8 @@
           <span>12mL</span>
         </div>
         <div class="price-row">
-          <div class="price">$35 <span class="old">$42</span></div>
-          <button class="buy-btn" data-product="IGET Bar 3500 Puffs" data-price="$35 AUD">
+          <div class="price">$55 <span class="old">$65</span></div>
+          <button class="buy-btn" data-product="IGET Bar 3500 Puffs" data-price="$55 AUD">
             <i class="fa-solid fa-cart-plus"></i> Buy
           </button>
         </div>
@@ -628,8 +636,8 @@
           <span>13mL</span>
         </div>
         <div class="price-row">
-          <div class="price">$40 <span class="old">$48</span></div>
-          <button class="buy-btn" data-product="IGET Moon K5000" data-price="$40 AUD">
+          <div class="price">$65 <span class="old">$75</span></div>
+          <button class="buy-btn" data-product="IGET Moon K5000" data-price="$65 AUD">
             <i class="fa-solid fa-cart-plus"></i> Buy
           </button>
         </div>
@@ -650,8 +658,8 @@
           <span>22mL</span>
         </div>
         <div class="price-row">
-          <div class="price">$45 <span class="old">$52</span></div>
-          <button class="buy-btn" data-product="Alibarbar Ingot 9000" data-price="$45 AUD">
+          <div class="price">$70 <span class="old">$80</span></div>
+          <button class="buy-btn" data-product="Alibarbar Ingot 9000" data-price="$70 AUD">
             <i class="fa-solid fa-cart-plus"></i> Buy
           </button>
         </div>
@@ -672,8 +680,8 @@
           <span>Rechargeable</span>
         </div>
         <div class="price-row">
-          <div class="price">$40 <span class="old">$47</span></div>
-          <button class="buy-btn" data-product="Kuz C6000" data-price="$40 AUD">
+          <div class="price">$60 <span class="old">$70</span></div>
+          <button class="buy-btn" data-product="Kuz C6000" data-price="$60 AUD">
             <i class="fa-solid fa-cart-plus"></i> Buy
           </button>
         </div>
@@ -694,8 +702,8 @@
           <span>25mL</span>
         </div>
         <div class="price-row">
-          <div class="price">$55 <span class="old">$65</span></div>
-          <button class="buy-btn" data-product="IGET Legend 12000" data-price="$55 AUD">
+          <div class="price">$85 <span class="old">$95</span></div>
+          <button class="buy-btn" data-product="IGET Legend 12000" data-price="$85 AUD">
             <i class="fa-solid fa-cart-plus"></i> Buy
           </button>
         </div>
@@ -716,8 +724,8 @@
           <span>True Disposable</span>
         </div>
         <div class="price-row">
-          <div class="price">$42 <span class="old">$50</span></div>
-          <button class="buy-btn" data-product="UMIN Slick Plus 10000" data-price="$42 AUD">
+          <div class="price">$65 <span class="old">$75</span></div>
+          <button class="buy-btn" data-product="UMIN Slick Plus 10000" data-price="$65 AUD">
             <i class="fa-solid fa-cart-plus"></i> Buy
           </button>
         </div>
@@ -982,6 +990,7 @@
     <div class="footer-brand">
       <a href="#" class="logo brand-font" style="font-size:24px;">
         VAPE<span>VAULT</span>
+        <span class="verify-badge"><i class="fa-solid fa-check"></i></span>
       </a>
       <p>Australia's trusted source for premium disposable vapes and vape devices. Authentic products, fast shipping, and dedicated customer support.</p>
       <div class="footer-social">
