@@ -59,11 +59,10 @@
   }
   .logo span { color: var(--primary); }
   .logo .verify-badge {
-    display: inline-flex; align-items: center; justify-content:center;
-    width: 20px; height: 20px;
-    background: #1d9bf0; color: #fff;
-    border-radius: 50%; font-size: 10px;
+    display: inline-block;
+    width: 22px; height: 22px;
     margin-left: 8px; flex-shrink: 0;
+    background: url('transparentVerifiedBadge.png') center/contain no-repeat;
   }
   nav { display: flex; align-items: center; gap: 24px; }
   nav a {
@@ -538,7 +537,7 @@
 <header id="header">
   <a href="#" class="logo brand-font">
     VAPE<span>VAULT</span>
-    <span class="verify-badge"><i class="fa-solid fa-check"></i></span>
+    <span class="verify-badge"></span>
   </a>
   <nav>
     <a href="#products">Products</a>
@@ -1078,7 +1077,7 @@
     <div class="footer-brand">
       <a href="#" class="logo brand-font" style="font-size:24px;">
         VAPE<span>VAULT</span>
-        <span class="verify-badge"><i class="fa-solid fa-check"></i></span>
+        <span class="verify-badge"></span>
       </a>
       <p>Australia's trusted source for premium disposable vapes and vape devices. Authentic products, fast shipping, and dedicated customer support.</p>
       <div class="footer-social">
